@@ -1,0 +1,7 @@
+import { userItem } from '../Model/userItem';
+
+export class ShoppingCart {
+    Id: number;
+    userId: number;
+    userItemList: userItem[];
+}
